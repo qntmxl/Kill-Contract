@@ -1,0 +1,43 @@
+img {
+	width: 300px;
+	height: 600px;
+	border-radius: 2%;
+}
+
+body {
+	text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	background: darkorchid;
+	color: rgba(255, 255, 255, 0.767);
+
+}
+@keyframes spinAnimation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.element {
+  animation-name: spinAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+.top img {
+width: 300px;
+height: 100px;
+border-top-left-radius: 40px;
+}
+.website {
+	height: 500px;
+	width: 500px;
+}
+hr {
+	border: none;
+	height: 6px;
+	border-top: 6px dashed rgb(255, 255, 255);
+
+
+}
